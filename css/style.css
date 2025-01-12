@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #405d4c !important;
+	background-image: url('./img/green.jpg') !important;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow-x: hidden;
+	font-family: 'Red Hat Display' !important;
+}
+
+.navbar {
+	background-color:#405d4c; 
+	border-bottom: 3px solid #708b7b;
+}
+
+.navbar-brand img {
+	height: 60px;
+}
+
+.navbar-text {
+	color: white !important;
+}
+
+.navbar-toggler {
+	border-color: white !important;
+}
+
+.navbar-toggler-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+.nav-item, .nav-link {
+	color: white !important;
+}
+
+#line {
+	height: 45px;
+}
+
+#search {
+	height: 55px;
+}
+
+.navbar .btn {
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+	background-color:#c27729 !important; 
+	color:white !important; 
+	font-weight: 650 !important;
+	border:#c27729 !important; 
+	border-radius: 5px !important; 
+}
+
+@media (max-width: 992px) {
+	.navbar-text {
+		text-align: center;
+	}
+
+	#line {
+		display: none;
+	}
+
+	.search {
+		margin-top: 20px;
+	}
+}
+
+#check {
+	height: 60px;
+}
+
+.content-heading {
+	font-weight: bold;
+	font-size: 55px; 
+	line-height: 75px;
+	color: white;
+}
+
+.content-text {
+	font-size: 25px;
+	font-weight: 300;
+	color: white;
+}
+
+.content .btn, .content .btn:hover {
+	background-color: #c27729; 
+	font-size: 18px;
+	color: white; 
+	border: #c27729; 
+	border-radius: 5px;
+}
+
+.content .btn-box, .content .btn-box:hover {
+	background-color: #2a3d32; 
+	color: white; 
+	border: #2a3d32; 
+	border-radius: 5px;
+}
+
+#box {
+	height: 25px;
+	margin-right: 10px;
+	margin-top: -5px;
+}
+
+@media (max-width: 992px) {
+	#check {
+		height: 45px;
+	}
+
+	.content-heading {
+		font-size: 45px;
+		line-height: 60px;
+	}
+
+	.content-text {
+		font-size: 20px;
+	}
+}
+
+#circle{
+   height:700px;
+   margin-left: 750px;
+   position: absolute;
+   z-index: -1;
+}
+
+#grandma{
+   height:600px;
+   margin-left:830px;
+   margin-top: -470px;
+   position: absolute;
+   z-index: 1;
+}
+
+#love{
+   height:300px;
+   margin-left:1030px;
+   margin-top: -460px;
+   position: absolute;
+   z-index: 2;
+}
+
+.footer .col-9 {
+	background-color: white;
+}
+
+.footer .col-3 {
+	background-color: rgb(117, 138, 125);
+}
+
+.footer-category {
+	display: block;
+	font-size: 30px; 
+	color: black;
+}
+
+.footer-text {
+	font-size: 35px;
+	font-weight: 600;
+	color: white;
+	display: flex;
+	justify-content: center;
+	text-decoration: none;
+}
+
+#circle {
+	height: 700px;
+	margin-top: -500px;
+	z-index: -1;
+}
+
+.footer-category-image {
+	height: 110px;
+	display: block;
+}

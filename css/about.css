@@ -1,0 +1,51 @@
+.about-box {
+	background-color: white;
+}
+
+.about-box li {
+	font-size: 24px;
+	line-height: 35px;
+}
+
+.about-box p {
+	font-size: 50px;
+}
+
+@media (max-width: 992px) {
+	.green-heading {
+		font-size: 35px !important;
+	}
+
+	.offer {
+		font-size: 20px !important;
+		line-height: 30px !important;
+	}
+
+	.yellow-heading {
+		font-size: 75px !important;
+	}
+
+	.about {
+		font-size: 18px !important;
+	}
+
+	.yellow-heading2 {
+		font-size: 45px !important;
+	}
+}
+
+#lola {
+	margin-top: 250px;
+	height: 350px;
+	position: absolute;
+	z-index: -1;
+}
+
+#love {
+	height: 300px;
+	margin-top: 60px;
+	margin-left: -50px;
+	position: absolute;
+	z-index: 1;
+}
+
