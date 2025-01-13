@@ -115,9 +115,10 @@ ol li {
 	color: #2a3d32;
 	font-weight: bolder;
 	white-space: nowrap;
-
+	
 	@media (max-width: 992px) {
 		font-size: 23px;
+		white-space: normal;
 	}
 }
 
@@ -132,7 +133,7 @@ ol li {
 
 	@media (max-width: 992px) {
 		position: absolute !important;
-		top: 1100px !important;
+		top: 1150px !important;
 	}
 
 	@media (max-width: 768px) {
