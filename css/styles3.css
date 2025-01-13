@@ -1,51 +1,153 @@
-#background{
-width:1513px;
-height:690px;
-margin-top:10px;
+body {
+	background-color: rgb(160, 183, 23) !important;
+	background-image: url('./img/background.jpg') !important;
+	background-size: cover !important;
 }
 
-#yellow{
-width:1270px;
-height:480px;
-margin-top:-880px;
+#yellow {
+	width: 100%;
+	height: 525px;
+	position: absolute;
+	z-index: 1;
+	left: -250px;
+
+	@media (max-width: 1200px) {
+		left: -20px;
+		height: 550px;
+	}
+
+	@media (max-width: 992px) {
+		left: -20px;
+		top: 575px;
+        height: 400px;
+	}
+
+    @media (max-width: 780px) {
+        height: 525px;
+	}
+
+	@media (max-width: 576px) {
+		height: 545px !important;
+	}
 }
 
-#chef{
-width:330px;
-margin-left:1185px;
-margin-top:-930px;
+#chef {
+	width: 315px;
+	position: relative;
+	z-index: 2;
+	right: 50px;
+
+	@media (max-width: 1200px) {
+		right: -40px;
+	}
+
+	@media (max-width: 992px) {
+		right: 0px;
+	}
 }
 
-#down{
-margin-top:-35px;
-height:100px;
-width:1050px;
-}
+.one {
+	position: relative;
+	z-index: 3;
 
-#down2{
-margin-top:-35px;
-margin-left:-5px;
-height:100px;
-width:463px;
-}
-
-#main2{
-height:70px;
-margin-left:685px;
-margin-top:-90px;
-display: block;
+	@media (max-width: 992px) {
+		z-index: 1;
+	}
 }
 
 #tilapia{
-margin-top:-675px;
-height:530px;
-width:660px;
-border-top-right-radius:85px;
-border-bottom-right-radius:85px;
+	width: 650px;
+	border-top-right-radius: 85px;
+	border-bottom-right-radius: 85px;
+	position: relative;
+	top: 60px;
+	left: -165px;
+
+	@media (max-width: 1200px) {
+		width: 500px;
+		top: 45px;
+	}
+
+	@media (max-width: 992px) {
+		width: 500px;
+		top: 45px;
+		left: 0px;
+	}
 }
 
-#brown{
-width:270px;
-margin-left:670px;
-margin-top:-455px;
+.two {
+	position: absolute;
+	z-index: 3;
+	left: 475px;
+	right: 0;
+
+	@media (max-width: 1200px) {
+		left: 350px;
+	}
+
+	@media (max-width: 992px) {
+		left: 0px;
+		top: 525px;
+	}
+}
+
+.ingredients {
+	font-weight: 700;
+	display: inline-block;
+	background-color: white;
+}
+
+th {
+	font-size: 23px !important;
+	line-height: 28px !important;
+}
+
+ol {
+    list-style: none;
+
+    @media (max-width: 992px) {
+		margin-top: 35px !important;
+	}
+}
+
+ol li {
+	font-size: 20px;
+	color: #2a3d32;
+	font-weight: bolder;
+}
+
+.footer {
+    position: relative;
+    top: 225px !important;
+	z-index: -1;
+
+	@media (max-width: 1200px) {
+		top: 500px !important;
+	}
+
+	@media (max-width: 992px) {
+		top: 650px !important;
+	}
+
+	@media (max-width: 768px) {
+		top: 800px !important;
+	}
+}
+
+.recipename {
+	font-size: 50px; 
+	font-weight: bold;
+	color: #c27729;
+	display: inline-block;
+}
+
+.recipecategory {
+	height: 100px;
+	display: block;
+}
+
+.recipecategory-name {
+	font-size: 30px; 
+	font-weight: bold;
+	color: black;
 }
