@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Ube Champorado</title>
-		<link rel="stylesheet" href="./css/style.css">
-		<link rel="stylesheet" href="./css/styles6.css">
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ube Champorado</title>
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/styles.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 </head>
 <body>
 	<nav class="navbar navbar-expand-lg">
@@ -52,62 +52,66 @@
 		</div>
 	</nav>
 
-<img src="./img/background.jpg" id="background" alt="background">
-<img src="./img/yellow.png" id="yellow" alt="yellow">
-<img src="./img/chef.png" id="chef" alt="chef">
+	<img src="./img/yellow.png" id="yellow" alt="yellow" class="mt-3">
+	<img src="./img/chef.png" id="chef" alt="chef" class="mt-5 float-end">
 
-<img src="./img/down.jpg" id="down" alt="down">
-<img src="./img/down2.jpg" id="down2" alt="down2">
+	<div class="row">
+		<div class="col-lg-4 col-6 one">
+			<img src="./img/champorado.jpg" id="sinigang" alt="sinigang">
+		</div>
+		<div class="col-lg-6 col-12 two mt-lg-0 mt-5 ms-lg-4">
+			<h1 class="ingredients mt-4 py-3 px-5">Ingredients</h1>
+			<table class="table table-borderless">
+				<tbody>
+					<tr>
+						<th>— 4 cups water</th>
+						<th>— 1/2 cup coconut cream</th>
+					</tr>
+					<tr>
+						<th>— condensed milk</th>
+						<th>— 250 grams malagkit rice</th>
+					</tr>
+					<tr>
+						<th>— 1 cup ube halaya</th>
+						<th>— 1 tsp salt</th>
+					</tr>
+					<tr>
+						<th>— 1 tsp ube flavoring</th>
+						<th>— butter (optional)</th>
+					</tr>
+					<tr>
+						<th>— evaporated milk</th>
+					</tr>
+				</tbody>
+			</table>
+			<ol class="my-sm-5">
+				<li>Pour the rice and water in a medium stockpot and cook over medium heat.</li>
+				<li>Bring to a boil then lower to a simmer until rice is cooked (Stir regularly)</li>
+				<li>Stir in the ube halaya, flavoring, coconut cream, and a pinch of salt, to taste.</li>
+				<li>Ladle the champorado into bowls and top with evaporated/condensed milk.</li>
+				<li>Serve warm and enjoy!</li>
+			</ol>
+		</div>
+	</div>
 
-<p style="font-family:Red Hat Display; font-size:50px; color:#c27729; margin-left:125px; margin-top:-85px"><b>Ube Champorado</b></p>
-<img src="./img/snacks.jpg" alt="main2" id="main2">
-<p style="display:block; font-family:Red Hat Display; font-size:35px; color:black; margin-left:790px; margin-top:-60px">Snacks</p>
-<p style="display:block; font-family:Red Hat Display; font-size:40px; color:white; margin-left:1180px; margin-top:-75px">Learn More →</p>
-
-<p style="font-family:Red Hat Display; font-size:22px; color:#2a3d32; margin-left:707px; margin-top:-298px">
-	<b>
-	1.Pour the rice and water in a medium stockpot and cook over medium heat. 
-	<br>
-	2.Bring to a boil then lower to a simmer until rice is cooked (Stir regularly)
-	<br>
-	3.Stir in the ube halaya, flavoring, coconut cream, and a pinch of salt, to taste. 
-	<br>
-	4.Ladle the champorado into bowls and top with evaporated/condensed milk. 
-	<br> 
-	5. Serve warm, and enjoy!
-</b>
-</p>
-
-<img src="./img/champorado.jpg" id="champorado" alt="champorado">
-
-<p style="font-family:Red Hat Display; font-size:28px; color:#401c07; margin-left:700px; margin-top:-570px">
-<b>
--4 cups water
-<br>
--condensed milk
-<br>
--1 cup ube halaya
-<br>
--1 tsp ube flavoring
-<br>
--Evaporated milk
-<br>
--1/2 cup coconut cream
-<br>
--250 grams malagkit rice
-</b>
-</p>
-
-<p style="font-family:Red Hat Display; font-size:28px; color:#401c07; margin-left:980px; margin-top:-310px">
-<b>
--1 tsp salt
-<br>
--Butter(optional)
-</b>
-</p>
-
-<img src="./img/brown.png" id="brown" alt="brown">
-
+	<div class="container-fluid mt-5 footer pt-5">
+		<div class="row">
+			<div class="col-9 mt-5">
+				<div class="row">
+					<div class="col-7">
+						<p class="recipename" style="margin-left:25px; margin-top:38px;">Ube Champorado</p>
+					</div>
+					<div class="col d-flex mt-4 mb-3">
+						<img src="./img/snacks.jpg" alt="main" id="main" class="recipecategory">
+						<p class="recipecategory-name" style="margin-left:10px; margin-top:30px;">Snacks</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-3 mt-5">
+				<a href="./categories.html" class="footer-text mt-5"><p>Learn More →</p></a>
+			</div>
+		</div>
+	</div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
